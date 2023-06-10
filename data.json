@@ -1,0 +1,54 @@
+{
+    "home": {
+        "background_photo": "images/Home_page_background_picture.jpg",
+        "nav_photo": "images/Header_image.jpg",
+        "insp_photo1": "images/home_undergrad_inspiration.JPG",
+        "insp_photo2": "images/home_hons_inspiration.JPG"
+        },
+    "user": {
+    "name" : "Moses Moletsane",
+    "university": "University of Johannesburg",
+    "honours" : "BSc Honours in Geography degree",
+    "masters" : "MSc Candidate Geography",
+    "activity" : "Community Engagement",
+    "short1":  "Green Economy and trade",
+    "short2":  "Introduction to Sustainable Finance",
+    "short3":  "Cities and Climate Change",
+    "goal":  "Environmental Scientist",
+    "company":  "Environmental Management"
+    },
+    "about": {
+        "des_photo": "images/about_description.JPG",
+        "u_photo": "images/about_u.JPG",
+        "o_photo": "images/about_o.JPG",
+        "p1_photo": "images/about_p1.JPG",
+        "p2_photo": "images/about_p2.jpg"
+    },
+    "undergrad": {
+        "slide1": "images/uslide1.JPG",
+        "slide2": "images/uslide2.JPG",
+        "slide3": "images/uslide3.JPG",
+        "u_row1": "images/urow1.JPG",
+        "u_row2": "images/urow2.JPG",
+        "u_row3": "images/urow3.JPG",
+        "u_row4": "images/urow4.JPG",
+        "u_row5": "images/urow5.JPG",
+        "u_row6": "images/urow6.jpg",
+        "u_row7": "images/urow7.JPG",
+        "u_row8": "images/urow8.JPG"
+    },
+    "postgrad": {
+        "slide1": "images/pslide1.jpg",
+        "slide2": "images/pslide2.jpg",
+        "slide3": "images/pslide3.jpg",
+        "p_row1": "images/prow1.JPG",
+        "p_row2": "images/prow2.JPG",
+        "p_row3": "images/prow3.jpg",
+        "p_row4": "images/prow4.JPG",
+        "p_row5": "images/prow5.jpg",
+        "p_row6": "images/prow6.JPG",
+        "p_row7": "images/prow7.jpg",
+        "p_row8": "images/prow8.jpg"
+    }
+    }
+    

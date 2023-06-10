@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <link rel="icon" type="image/png" href="images/page.png">
+
+    <style>
+      body {
+        background-color: rgba(128, 128, 0, 0.1); /* Transparent green color */
+    }      
+      .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .icons {
+        font-size: 20px;
+      }
+    </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var currentDate = new Date();
+    var currentYear = currentDate.getFullYear();
+    var currentMonth = currentDate.toLocaleString('default', { month: 'long' });
+    var currentDay = currentDate.getDate();
+
+    var dateElement = document.getElementById('currentDate');
+    dateElement.textContent = currentDay + ' '+ currentMonth + ' ' + currentYear;
+  });
+  function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const seconds = now.getSeconds().toString().padStart(2, '0');
+      const currentTime = `${hours}:${minutes}:${seconds}`;
+
+      document.getElementById('currentTime').textContent = currentTime;
+    }
+
+    // Update time every second
+    setInterval(updateTime, 1000);
+</script>
+
+</head>
+<body >
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="{{home.nav_photo}}" alt="Moses Moletsane" width="200px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-underline">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-undergraduate.html">Undergraduate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-postgraduate.html">Postgraduate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index-contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="container text-center mb-5">  <div class="pt-5"></div>  <div class="pt-5"></div>
+  <div class="pt-5"></div>
+
+    <div class="row">
+      <div class="col-md mb-3">
+        <h1>Contact Page</h1>
+    <p>
+      <a href="tel:+27734907149" class="text-decoration-none text-black"> Phone: 
+        <i class="bi bi-telephone-fill"></i> +27 73 490 7149
+      </a>
+    </p>
+    <p>
+      <a href="mailto:mosesmoletsane17@gmail.com" class="text-decoration-none text-black"> E-mail: 
+        <i class="bi bi-envelope-fill"></i> mosesmoletsane17@gmail.com
+      </a>
+    </p>
+    <h6>I am a victor!!!</h6>
+    <p><em>The form below is disabled. The ability to send me messages directly will be enabled soon. In the meantime, you can use my social media and email to contact me.</em></p>
+    <div class="bg-info bg-gradient bg-opacity-25 p-2">
+    <form action="" method="POST" enctype="text/plain" >
+      <div class="mb-3 pt-3 mt-3">
+        <input type="email" class="form-control" id="emailInput" placeholder="E-mail" required disabled>
+      </div>
+      <div class="mb-3">
+                <textarea class="form-control" id="messageTextarea" rows="7" placeholder="Your message" disabled></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+      </div>
+    </div>
+      <div class="col-md">
+        <img src="{{home.insp_photo1}}"  width="100%" height="100%" class="card-img-top" alt="Moses at UJ APK">
+      
+    </div>
+    </div>
+    </div>
+
+
+    <footer class="text-center">
+      <div class="container-xxl bg-secondary bg-gradient text-white p-3">
+        <p>&copy; <span id="currentDate"></span> | Time: <span id="currentTime"></span> | All rights reserved | Moses Moletsane </p>
+        <div class="container">
+            <p>
+              <i class="bi bi-geo-alt-fill text-white icons icon-link-hover"></i> 58 3rd Avenue, Westdene, Gauteng</p>
+              <p  class="icons">
+              <a href="https://wa.me/27734907149" target="_blank" class="text-white icon-link-hover"><i class="bi bi-whatsapp "></i></a> &nbsp;&nbsp;
+              <a href="https://t.me/MosesMoletsane" target="_blank" class="text-white icon-link-hover"><i class="bi bi-telegram"></i></a> &nbsp;&nbsp;
+              <a href="mailto:mosesmoletsane17@gmail.com" class="text-white icon-link-hover"><i class="bi bi-envelope-fill"></i></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>
