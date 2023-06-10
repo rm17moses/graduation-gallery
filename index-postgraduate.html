@@ -23,7 +23,10 @@
       .icons {
         font-size: 20px;
       }
-    </style>
+  .navbar-nav {
+  padding: 2em 2em 0em 2em;
+}
+</style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -51,7 +54,7 @@
 
 </head>
 <body >
-  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" style="height: 80px;">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="{{home.nav_photo}}" alt="Moses Moletsane" width="200px">
@@ -60,7 +63,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav nav-underline">
+        <ul class="navbar-nav nav-underline bg-body-tertiary">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
